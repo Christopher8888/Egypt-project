@@ -1,0 +1,283 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --choco : #AD764A;
+    --white: #fefefe;
+    --black: #313733;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--white);
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.logo {
+    font-weight: 900;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.logo2 {
+    color: var(--choco);
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+nav ul li {
+    font-size: 20px;
+    padding-right: 40px;
+    margin-left: 5px;
+    list-style-type: none;
+  
+}
+
+.home {
+    background-image: url('../assets/Pyramids.jpg');
+    background-size: cover;
+     background-repeat: no-repeat;
+     height: 120vh;
+    text-align: center;
+ 
+    
+}
+
+.home-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 20px;
+    
+}
+
+.home-content hr {
+    width: 10%;
+    color: var(--choco);
+    
+}
+
+.top {
+    color:var(--choco);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.middle, .bottom {
+    margin: 0px;
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.page2 {
+    background-color: var(--choco);
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.page2-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.top2 {
+    color: var(--black);
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+.left {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+.right {
+    color: var(--black);
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+
+
+
+
+
+.content-left, .content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: var(--white);
+}
+
+.video {
+    padding-top: 50px;
+}
+
+.page3 {
+    background-color: var(--choco);
+    height: 100vh;
+    text-align: center;
+}
+  
+.page3-content {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-left: 150px;
+    color: var(--white);
+}
+.page3-paragraph, .picture , .page4-paragraph, .picture2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+
+.page3-paragraph, .page4-paragraph p {
+    padding-top: 50px;
+
+}
+
+.title p{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: start;
+    margin: 0;
+    
+    
+}
+
+.tuthan {
+    height: 300px;
+}
+.page3 a, .page4 a{
+    color: var(--black);
+}
+
+.page4 {
+    background-color: var(--choco);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+ 
+}
+.page4-content {
+   
+    display: flex;
+    flex-direction: row;
+    padding-right: 200px;
+    color: var(--white);
+    text-align: end;
+}
+
+.title2 p {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+    
+}
+.bastet {
+    height: 450px;
+    padding-left: 60px;
+}
+
+.show-more {
+    display: flex;
+    flex-direction: column;
+}
+
+.show-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 50px;
+    width: 150px;
+
+    background-color: transparent;
+    border-radius: 0px ;
+    border-color: var(--black);
+}
+
+.button {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+.footer{
+
+    height: 100px;
+    background-color: var(--choco);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.footer hr {
+    width: 90%;
+    background-color: var(--black);
+    color: var(--black);
+    
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--black);
+}
